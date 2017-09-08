@@ -1,0 +1,22 @@
+{
+  "name": "wdio-wed-sample",
+  "version": "1.0.0",
+  "description": "Sample Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "webdrivercss": "github:DenisKudelin/webdrivercss#beta-rc1",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^1.0.1",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
